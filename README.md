@@ -10,15 +10,15 @@ Programa em **Intel Assembly x86** desenvolvido para a disciplina de **Arquitetu
 O projeto consiste no carregamento, procesamento, exibição e manipulação de matrizes de números inteiros armazenadas em arquivos de texto, permitindo operações aritméticas linha a linha, histórico para undo e salvamento.
 
 ## Sumário
-- [Funcionalidades](#-funcionalidades)
-- [Formato do Arquivo de Entrada](#-formato-do-arquivo-de-entrada)
-- [Comandos Suportados](#-comandos-suportados)
-- [Exibição na Tela](#-exibição-na-tela)
-- [Estrutura e Representação de Dados](#-estrutura-e-representação-de-dados)
-- [Ambiente de Execução e Compilação](#-ambiente-de-execução-e-compilação)
-- [Como Executar](#-como-executar)
-- [Tratamento de Erros](#-tratamento-de-erros)
 - [Autor](#-autor)
+- [Funcionalidades](#-funcionalidades)
+- [Comandos Suportados](#-comandos-suportados)
+- [Formato do Arquivo de Entrada](#-formato-do-arquivo-de-entrada)
+- [Exemplo de arquivo aceito](#-exemplo-de-arquivo-aceito).
+
+
+## Autora:
+Lara da Silva Moreira
 
 ## Funcionalidades
 
