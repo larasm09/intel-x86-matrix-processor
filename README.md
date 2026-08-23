@@ -7,7 +7,7 @@ Projeto final desenvolvido para a discipina de Arquitetura de Computadores da UF
 
 Programa em **Intel Assembly x86** desenvolvido para a disciplina de **Arquitetura e Organização de Computadores I** da UFRGS.
 
-O projeto consiste no carregamento, procesamento, exibição e manipulação de matrizes de números inteiros armazenadas em arquivos de texto, permitindo operações aritméticas linha a linha, histórico para undo e gravação de resultados.
+O projeto consiste no carregamento, procesamento, exibição e manipulação de matrizes de números inteiros armazenadas em arquivos de texto, permitindo operações aritméticas linha a linha, histórico para undo e salvamento.
 
 ## 📋 Sumário
 - [Funcionalidades](#-funcionalidades)
