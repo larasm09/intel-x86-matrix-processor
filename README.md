@@ -4,7 +4,6 @@ Projeto final desenvolvido para a discipina de Arquitetura de Computadores da UF
 [![Architecture](https://img.shields.io/badge/Architecture-Intel%20x86%2016--bit-blue.svg)](https://en.wikipedia.org/wiki/x86)
 [![Environment](https://img.shields.io/badge/Environment-DOSBox%20%2F%20MS--DOS-orange.svg)](https://www.dosbox.com/)
 [![Assembler](https://img.shields.io/badge/Assembler-MASM-green.svg)](https://mremoteng.org/)
-[![Course](https://img.shields.io/badge/UFRGS-INF01108%20AOC%20I-red.svg)](https://www.ufrgs.br/)
 
 Programa em **Intel Assembly x86** desenvolvido para a disciplina de **Arquitetura e Organização de Computadores I** da UFRGS.
 
