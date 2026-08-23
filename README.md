@@ -9,7 +9,7 @@ Programa em **Intel Assembly x86** desenvolvido para a disciplina de **Arquitetu
 
 O projeto consiste no carregamento, procesamento, exibição e manipulação de matrizes de números inteiros armazenadas em arquivos de texto, permitindo operações aritméticas linha a linha, histórico para undo e salvamento.
 
-## 📋 Sumário
+## Sumário
 - [Funcionalidades](#-funcionalidades)
 - [Formato do Arquivo de Entrada](#-formato-do-arquivo-de-entrada)
 - [Comandos Suportados](#-comandos-suportados)
@@ -22,16 +22,16 @@ O projeto consiste no carregamento, procesamento, exibição e manipulação de 
 
 ## Funcionalidades
 
-- **Leitura & Validação**: Carrega a matriz do arquivo padrão `MAT.TXT`, verificando a integridade do formato e suas dimensões.
-- **Identificação Automática de Dimensão**: Detecta a dimensão $N$ da matriz ($N$ linhas por $N+1$ colunas, onde $2 \le N \le 7$).
-- **Operações Aritméticas**:
+- **Leitura e validação**: Carrega a matriz do arquivo padrão `MAT.TXT`, verificando a integridade do formato e suas dimensões.
+- **Identificação de dimensão**: Detecta a dimensão $N$ da matriz ($N$ linhas por $N+1$ colunas, onde $2 \le N \le 7$).
+- **Operações aritméticas**:
   - Multiplicação de linha por escalar (`MUL`).
   - Soma entre duas linhas com substituição da linha de destino (`ADD`).
   - Sistema de Desfazer (`UNDO`): Permite reverter a última alteração efetuada na matriz.
   - Exportação (`WRITE`): Grava o estado atual da matriz ao final de um arquivo de saída especificado pelo usuário.
   - Interface em Modo Texto: Exibe a matriz formatada com alinhamento à direita e espaçamento.
 
-## 📁 Formato do Arquivo de Entrada (`MAT.TXT`)
+## Formato da Entrada (MAT.TXT)
 
 O arquivo de entrada deve atender às seguintes regras:
 1. **Nome padrão**: `MAT.TXT`.
