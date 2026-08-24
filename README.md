@@ -34,7 +34,7 @@ Lara Moreira
 
 The input file must follow these rules:
 1. **Standard name**: `MAT.TXT`.
-2. **Dimensions**: $N$ rows and $N+1$ columns ($2 \le N \le 7$).
+2. **Dimensions**: ($N$ rows and $N+1$) columns ($2 \le N \le 7$).
 3. **Delimiter**: Semicolon character (`;`) between numbers.
 4. **No Spaces**: No spaces, tabs, or additional invisible characters are allowed.
 5. **Numeric Representation**: Signed 16-bit integers (in two's complement). Negative numbers have a `-` prefix.
