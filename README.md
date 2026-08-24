@@ -1,46 +1,45 @@
 # intel-x86-matrix-processor
-Projeto final desenvolvido para a discipina de Arquitetura de Computadores da UFRGS.
 
 [![Architecture](https://img.shields.io/badge/Architecture-Intel%20x86%2016--bit-blue.svg)](https://en.wikipedia.org/wiki/x86)
 [![Environment](https://img.shields.io/badge/Environment-DOSBox%20%2F%20MS--DOS-orange.svg)](https://www.dosbox.com/)
 [![Assembler](https://img.shields.io/badge/Assembler-MASM-green.svg)](https://mremoteng.org/)
 
-Programa em **Intel Assembly x86** desenvolvido para a disciplina de **Arquitetura e Organização de Computadores I** da UFRGS.
+Program written in **Intel Assembly x86** developed for the **Computer Architecture and Organization I** course at UFRGS.
 
-O projeto consiste no carregamento, procesamento, exibição e manipulação de matrizes de números inteiros armazenadas em arquivos de texto, permitindo operações aritméticas linha a linha, histórico para undo e salvamento.
+The project consists of loading, processing, displaying, and manipulating integer matrices stored in text files, supporting row-wise arithmetic operations, an undo history, and file saving.
 
-## Sumário
-- [Autor](#-autor)
-- [Funcionalidades](#-funcionalidades)
-- [Comandos Suportados](#-comandos-suportados)
-- [Formato do Arquivo de Entrada](#-formato-do-arquivo-de-entrada)
-- [Exemplo de arquivo aceito](#-exemplo-de-arquivo-aceito).
+## Summary
+- [Author](#-author)
+- [Features](#-features)
+- [Supported Commands](#-supported-commands)
+- [Input File Format](#-input-file-format)
+- [Accepted File Example](#-accepted-file-example)
 
 
-## Autora:
-Lara da Silva Moreira
+## Author:
+Lara Moreira
 
-## Funcionalidades
+## Features
 
-- **Leitura e validação**: Carrega a matriz do arquivo padrão `MAT.TXT`, verificando a integridade do formato e suas dimensões.
-- **Identificação de dimensão**: Detecta a dimensão $N$ da matriz ($N$ linhas por $N+1$ colunas, onde $2 \le N \le 7$).
-- **Operações aritméticas**:
-  - Multiplicação de linha por escalar (`MUL`).
-  - Soma entre duas linhas com substituição da linha de destino (`ADD`).
-  - Sistema de Desfazer (`UNDO`): Permite reverter a última alteração efetuada na matriz.
-  - Exportação (`WRITE`): Grava o estado atual da matriz ao final de um arquivo de saída especificado pelo usuário.
-  - Interface em Modo Texto: Exibe a matriz formatada com alinhamento à direita e espaçamento.
+- **Reading and validation**: Loads the matrix from the standard `MAT.TXT` file, checking the format's integrity and dimensions.
+- **Dimension identification**: Detects the matrix dimension $N$ ($N$ rows by $N+1$ columns, where $2 \le N \le 7$).
+- **Arithmetic operations**:
+  - Row multiplication by a scalar (`MUL`).
+  - Addition of two rows with replacement of the destination row (`ADD`).
+  - Undo System (`UNDO`): Allows reverting the last change made to the matrix.
+  - Export (`WRITE`): Writes the matrix's current state to the end of an output file specified by the user.
+  - Text Mode Interface: Displays the formatted matrix with right alignment and spacing.
 
-## Formato da Entrada (MAT.TXT)
+## Input Format (MAT.TXT)
 
-O arquivo de entrada deve atender às seguintes regras:
-1. **Nome padrão**: `MAT.TXT`.
-2. **Dimensões**: $N$ linhas e $N+1$ colunas ($2 \le N \le 7$).
-3. **Delimitador**: Caractere ponto e vírgula (`;`) entre os números.
-4. **Sem Espaços**: Não são permitidos espaços, tabulações ou caracteres invisíveis adicionais.
-5. **Representação Numérica**: Inteiros de 16 bits com sinal (em complemento de 2). Números negativos possuem o prefixo `-`.
+The input file must follow these rules:
+1. **Standard name**: `MAT.TXT`.
+2. **Dimensions**: $N$ rows and $N+1$ columns ($2 \le N \le 7$).
+3. **Delimiter**: Semicolon character (`;`) between numbers.
+4. **No Spaces**: No spaces, tabs, or additional invisible characters are allowed.
+5. **Numeric Representation**: Signed 16-bit integers (in two's complement). Negative numbers have a `-` prefix.
 
-### Exemplo de `MAT.TXT` ($N = 3$)
+### Example of `MAT.TXT` ($N = 3$)
 ```text
 4;-2;1;3
 2;1;-1;1
